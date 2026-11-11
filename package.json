@@ -1,0 +1,25 @@
+{
+  "name": "faglig-fornyelse-joshuaAlexanderSimonStach",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/cloudflare-workers": "^1.0.1",
+    "@hono/deno": "^1.0.3",
+    "@hono/node-server": "^2.1.6",
+    "@types/ws": "^8.18.2",
+    "dotenv": "^18.0.10",
+    "hono": "^4.13.17",
+    "mongodb": "^7.8.0",
+    "mongoose": "^9.12.1",
+    "ws": "^8.22.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
+  }
+}
