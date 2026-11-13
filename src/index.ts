@@ -18,8 +18,8 @@ import { upgradeWebSocket } from '@hono/cloudflare-workers'
 
 import { WebSocketServer } from 'ws'
 
-import "dotenv/config";
-import { usersRoute } from "../routes/user.ts";
+// import "dotenv/config"
+import usersRoute from "./routes/user.js";
 
 // import { getConnInfo } from 'hono/cloudflare-workers'
 
@@ -77,7 +77,6 @@ app.get("/todos/:id", (c) => {
   const id = c.req.param("id");
   return c.json({
     id,
-
   })
 })
 
@@ -87,7 +86,6 @@ app.get('/posts/:id/comment/:comment_id', async (c) => {
   return c.json({
     id,
     comment_id,
-
   })
 })
 
