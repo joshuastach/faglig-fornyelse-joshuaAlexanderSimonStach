@@ -40,7 +40,7 @@ type Env = {
 }
 
 
-/* -- Aplication prut noget */
+/* -- Aplication prut noget -- */
 
 // Separate API application.
 // It will be mounted under /api later.
